@@ -122,4 +122,5 @@
    highlight: {
      fontWeight: '700',
    },
- });
+ }
+ );
