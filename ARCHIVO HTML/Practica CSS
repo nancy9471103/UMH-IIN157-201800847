@@ -1,0 +1,749 @@
+<!doctype html>
+<html>
+<head>
+	
+<header>
+</header>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+	<title>ADD ALUMNO</title>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+		</header>
+</head>	
+<body>
+	<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	</nav>
+	</div>
+<div class="form-body">
+<tbody>
+	<p class="text">AGREGAR UN NUEVO ALUMNO</p>
+					<tr>
+					<p class="text">Nombre </p>
+					<input type="text" placeholder="Nombre del alumno">
+				</tr>
+				<tr>
+					<td><p class="text">Identificación </p>
+					<input type="text" pattern="[0-9]{13}" title="Solamente ingrese numero y una longitud maxima de 13 digitos" placeholder="Identificación"></td>
+				</tr>
+				<tr>
+					<td><p class="text">Dirección </p></td>
+					<td> <p class="text"> <textarea cols="21" rows="6"></textarea></p></td>
+					
+				</tr>
+				<tr>
+					<p class="text">Fecha de nacimiento</p>
+					<td><input type="date" ></td>
+				</tr>
+				
+				<tr>
+				<p class="text">Teléfono</p>
+					<td><input type="text" pattern="[0-9]{8}" title="Ingrese números enteros 8 digitos" placeholder="Ingrese un número telefónico"></td>
+				</tr>
+				<tr>
+					<p class="text">Correo Electronico</p>
+					<td><input type="email"  placeholder="ejemplo@url...."></td>
+				</tr>
+				<tr>
+					<p class="text">Género</p>
+					<center><select class="genero" name="genero" id="genero">
+  					<option value="f" class="text">Feménimo</option>
+  					<option value="m" class="text">Mascúlino</option>
+					</select></center>
+				</tr>
+				<tr>
+					<br>
+					<p class="text">Nacionalidad</p>
+					<td><input type="text"  placeholder="escribir...."></td>
+				</tr>
+	
+		<tr>
+					<p class="text">Modalidad</p>
+					<center><select class="genero" name="mod" id="mod">
+  					<option value="f" class="text">Presencial</option>
+  					<option value="m" class="text">Distancia</option>
+					</select></center>
+				</tr>	
+	     <tr>
+				<p class="text">Carrera</p>
+					<center><select class="genero" name="car" id="car">
+					<option value="m" class="text">Derecho</option>
+					<option value="m" class="text">Ecoturismo</option>
+					<option value="m" class="text">Gestión y contaduría empresarial</option>
+					<option value="f" class="text">Ingeniería en Informática</option>
+  					<option value="m" class="text">Ingeniería de Negocios</option>
+					<option value="m" class="text">Marketing y negocios Internacionales</option>
+					<option value="m" class="text">Técnico en comunicación social</option>
+					</select></center>	
+				</tr>
+<button>Guardar alumno</button>
+<button>Limpiar</button>
+<button>Cancelar</button>
+		</tbody>
+	</div>
+	</body>
+	
+</html>
+
+<!doctype html>
+<html>
+<head>
+	
+<header>
+</header>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+	<title>ADD COLABORADOR</title>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+		</header>
+</head>	
+<body>
+	<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	</nav>
+	</div>
+<div class="form-body">
+<tbody>
+	<br>
+	<p class="text">AGREGAR UN NUEVO COLABORADOR</p>
+					<tr>
+					<p class="text">Nombre </p>
+					<input type="text" placeholder="Nombre del colaborador">
+				</tr>
+				<tr>
+					<td><p class="text">Identificación </p>
+					<input type="text" pattern="[0-9]{13}" title="Solamente ingrese número y una longitud maxima de 13 digitos" placeholder="Identificación"></td>
+				</tr>
+				<tr>
+					<td><p class="text">Dirección </p></td>
+					<td> <p class="text"> <textarea cols="21" rows="6"></textarea></p></td>
+					
+				</tr>
+				<tr>
+					<p class="text">Fecha de nacimiento</p>
+					<td><input type="date" ></td>
+				</tr>
+				
+				<tr>
+				<p class="text">Teléfono</p>
+					<td><input type="text" pattern="[0-9]{8}" title="Ingrese números enteros 8 digitos" placeholder="Ingrese un número telefónico"></td>
+				</tr>
+				<tr>
+					<p class="text">Correo Electronico</p>
+					<td><input type="email"  placeholder="ejemplo@url...."></td>
+				</tr>
+				<tr>
+					<p class="text">Género</p>
+					<center><select class="genero" name="genero" id="genero">
+  					<option value="f" class="text">Feménimo</option>
+  					<option value="m" class="text">Mascúlino</option>
+					</select></center>
+				</tr>
+				<tr>
+					<br>
+					<p class="text">Nacionalidad</p>
+					<td><input type="text"  placeholder="Nacionalidad del colaborador"></td>
+				</tr>
+				<tr>
+					<p class="text">Cargo en la empresa </p>
+					<input type="text" placeholder="Cargo que desempeña el colaborador">
+				</tr>	
+		
+<button>Guardar Colaborador</button>
+<button>Limpiar</button>
+<button>Cancelar</button>
+		</tbody>
+	</div>
+	</body>
+	
+</html>
+
+<!doctype html>
+<html>
+<head>
+	
+<header>
+</header>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+	<title>BITÁCORA</title>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+</header>
+</head>	
+<body>
+		<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	</nav>
+	</div>
+
+	<div class="table-responsive">
+		<h1>Bitácora de cambios en sistema</h1>
+	<center><table border="1" style="width: 1200px;" class="table">
+  <tbody>
+    <tr>
+      <th scope="col">Fecha</th>
+      <th scope="col">Hora</th>
+      <th scope="col">Usuario</th>
+      <th scope="col">Equipo</th>
+      <th scope="col">Tipo</th>
+      <th scope="col">Evento</th>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+		</table>
+	</center>	
+	</div>
+	
+</body>
+	
+</html>
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/83334e3ebb.js" crossorigin="anonymous"></script>
+<title>INICIO</title>
+	<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+		</header>
+</head>
+
+<body>
+<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	&nbsp;&nbsp;<a href="LOGIN.html">Login</a>
+	&nbsp;&nbsp;<a href="Add Alumno.html">Adición Alumno</a>
+	&nbsp;&nbsp;<a href="Add Colaborador.html">Adición Colaborador</a>
+	&nbsp;&nbsp;<a href="Matricula.html">Matrícula</a>
+	&nbsp;&nbsp;<a href="RegistroNotas.html">Registro de Notas</a>
+    &nbsp;&nbsp;<a href="bitacora.html">Bitácora de cambios</a>
+	</nav>
+	</div>
+
+	<div class="container">
+	<ul class="slider">
+		<li id="slide1">
+			<video width="100%" type="video/mp4" height="500px" autoplay muted>
+			<source src="videoumh.mp4">
+			</video>
+		</li>
+		<li id="slide2">
+			<img src="img2.JPG">
+		</li>
+		<li id="slide3">
+			<img src="img3.JPG">
+		</li>
+		<li id="slide4">
+			<img src="img4.JPG">
+		</li>
+		<li id="slide5">
+			<img src="img1.JPG">
+		</li>
+		</ul>
+		
+		<ul class="menu_slider">
+		<li>
+			<a href="#slide1">1</a>
+			</li>
+		<li>
+			<a href="#slide2">2</a>
+			</li>
+		<li>
+			<a href="#slide3">3</a>
+			</li>
+		<li>
+			<a href="#slide4">4</a>
+			</li>
+		<li>
+			<a href="#slide5">5</a>
+			</li>
+		</ul>
+	</div>
+	
+	<div class="social_bar">
+	<tbody><center>
+<a href="https://es-la.facebook.com/UniversidadMetropolitanadeHonduras/"><li class="fa-brands fa-facebook" style="color:aliceblue"></li></a> 	
+<a href="https://www.instagram.com/umh.unimetro/?hl=es"><li class="fa-brands fa-instagram" style="color:aliceblue"></li></a>  
+<a href="https://twitter.com/universidadmh?lang=es"><li class="fa-brands fa-twitter" style="color:aliceblue"></li></a>
+<a href="https://www.youtube.com/c/UMHHonduras2002"><li class="fa-brands fa-youtube" style="color:aliceblue"></li></a>
+	</center>	
+	</tbody>
+	</div>
+
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+	
+<header>
+</header>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+	<title>LOGIN_PROYECTO</title>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+		</header>
+</head>	
+<body>
+	<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	</nav>
+	</div>
+<div class="form-body">
+<img src="imagen1.jpg" alt="user-login">
+<p class="text"> Bienvenido</p>
+<form class="login-form">
+<input type="text" placeholder="E-mail o Usuario">
+<input type="password" placeholder="Contraseña">	
+<button>Iniciar Sesión</button>
+	
+	</form>
+	</div>
+	</body>
+	
+</html>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<title>Matricula</title>
+</head>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+</header>
+<body>
+<div> <nav class="navegador"> 
+<a href="INICIO.html">Inicio</a>
+</nav>
+</div>	
+<div class="matricula">
+		<center>
+	<h1>MATRÍCULA EN LÍNEA</h1>
+	<div style="color: #59AA62"><h2>Lista de clases disponibles</h2></div><br><br>
+	</center>
+	</div>
+<div class="asignaturas">	
+<ol><li>Español general &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Informática I &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Filosofía &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Historia de Honduras &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Protocolo &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Gestión de negocios &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Cálculo I &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Métodos de investigación &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Matemática I &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Redes especializadas&nbsp;<button>Agregar</button></li></ol>
+<ol><li>Adaptación al cambio climático&nbsp;<button>Agregar</button></li></ol>
+<ol><li>Gestión de riesgos y desastres &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Inglés II &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Gobierno electrónico &nbsp;<button>Agregar</button></li></ol>
+<ol><li>Sistemas operativos I &nbsp;<button>Agregar</button></li></ol>
+		</div>
+</body>
+</html>
+
+<!doctype html>
+<html>
+<head>
+	
+<header>
+</header>
+
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+	<title>REGISTRO DE NOTAS</title>
+		<header>
+	<div class="TITULO"> 
+	<img src="logo.png">
+	<h1>UNIVERSIDAD METROPOLITANA DE HONDURAS</h1></div>
+	<hr>
+	<hr>
+		</header>
+</head>	
+<body >
+	<div> <nav class="navegador"> 
+    <a href="INICIO.html">Inicio</a>
+	</nav>
+	</div>
+	
+<div class="form-body">
+	<p class="text">REGISTRAR NOTAS</p>
+				<tr>
+					<br>
+					<th><p class="text">Código catedrático</p></th>
+					<input type="text"  placeholder="Ingresar código catedrático">
+		
+				</tr>
+				<tr>
+					<br>
+					<p class="text">Nombre del catedrático</p>
+					<td><input type="text"  placeholder="Ingresar nombre"></td>
+				</tr>
+				<tr>
+					<p class="text">Grado a evaluar</p>
+					<center><select class="genero" name="grado" id="grado">
+  					<option value="f" class="text">Postgrado</option>
+  					<option value="m" class="text">Pregrado</option>
+					</select></center>
+				</tr>	
+					
+					<tr>
+					<p class="text">Modalidad</p>
+					<center><select class="genero" name="mod" id="mod">
+  					<option value="f" class="text">Presencial</option>
+  					<option value="m" class="text">Distancia</option>
+					</select></center>
+				</tr>	
+				<tr>
+				<p class="text">Carrera</p>
+					<center><select class="genero" name="car" id="car">
+					<option value="m" class="text">Derecho</option>
+					<option value="m" class="text">Ecoturismo</option>
+					<option value="m" class="text">Gestión y contaduría empresarial</option>
+					<option value="f" class="text">Ingeniería en Informática</option>
+  					<option value="m" class="text">Ingeniería de Negocios</option>
+					<option value="m" class="text">Marketing y negocios Internacionales</option>
+					<option value="m" class="text">Técnico en comunicación social</option>
+					</select></center>	
+				</tr>
+	
+				<tr>
+					<p class="text">Periodo</p>
+					<td><input type="text" ></td>
+				</tr>
+				<tr>
+					<td><p class="text">Código de la asignatura</p>
+					<input type="text" placeholder="Ingrese código de la clase"></td>
+				</tr>
+				
+				<tr>
+				<p class="text">N° Cuenta del alumno</p>
+					<td><input type="text" pattern="[0-9]{9}" title="Ingrese números enteros 8 digitos" placeholder="Ingrese un número de cuenta"></td>
+				</tr>
+				
+				<tr>
+					<td><p class="text">Ingrese Nota Final </p></td>
+					<td><input type="text" placeholder="Ingrese nota final"></td>
+				</tr>
+				<tr>
+	
+	<td><p class="text">Observaciones: </p></td>
+	<td> <p class="text"> <textarea cols="21" rows="6"></textarea></p></td>
+					</tr>
+					
+	<button>Guardar alumno</button>
+	<button>Siguiente</button>
+    <button>Cancelar</button>			
+	
+
+		</tbody>
+	</div>
+	
+	</body>
+	
+</html>
+
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+h1{
+	text-align: center;
+	margin-top: 2%;
+	color:aliceblue;
+	padding:0px;
+}
+
+.navegador{
+	padding: 0px;
+	margin-top: 1%;
+	margin-left: 1%;
+	text-align: left;
+	font-size: 18px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: #FEFEFE;
+}
+
+.navegador a{
+	color:antiquewhite;
+}
+
+body{
+    display: block;
+	height: 100vh;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	background: linear-gradient(27deg, #145234 50%, #10371E 50%);
+}
+
+.form-body{
+	margin-top: 3%;
+	width: 400px;
+	min-width: 10px;
+	border-radius: 10px;
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	margin-left: 40%;
+	border: solid 1px #1C8B71;
+	
+}
+
+.form-body img{
+	width: 150px;
+	display: block;
+	margin: 20px auto;
+    height: 150px;
+    border-radius: 50%;
+		
+}
+
+.text{
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: azure;
+	margin-bottom: 10px;
+}
+
+.form-body input {
+	display: block;
+	margin: auto;
+	height: 40px;
+	width: 75%;
+	padding-left: 10px;
+	color: azure;
+	border: 1px solid #F3EBEB;
+	border-radius: 2px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	background-color: transparent;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	font-size: 1rem;
+	outline: none;
+}
+
+.form-body input[type="password"]{
+	margin-top: 20px;
+}
+
+::placeholder{
+	font-size: 1rem;
+	color: rgba(255,255,255, .596);
+}
+
+.form-body input:hover{
+	transition: .5s;
+	border: 1px solid #1C8B71;
+	color: #1C8B71;
+}
+
+.form-body button{
+	display: block;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 30px;
+	height: 40px;
+	width: 78%;
+	background: transparent;
+	color:azure;
+	border-radius: 2px;
+	cursor: pointer;
+	outline: none;
+	transition: all .5s ease;
+	border: 1px solid #1C8B71;
+}
+
+.form-body button:hover{
+	color: azure;
+	border:2px solid #1C8B71;
+	background: linear-gradient(#34495e,#2c3e50);
+		
+}
+
+.genero
+{
+	color:azure;
+	border:2px solid azure;
+	background: transparent;
+	padding: .4em 1.4em .3em 1.8em;
+	
+}
+
+
+.TITULO img{
+	width: 100px;
+	display: flow-root;
+	margin: 20px auto;
+    height: 100px;
+    border-radius: 50%;	
+}
+
+.container{
+	margin-top: 20px;
+	margin-left: 350px;
+	background-color:#1B3319;
+	width: 800px;
+	padding: 30px;
+}
+
+ul,li{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+}
+
+ul.slider{
+	position: relative;
+	width: 800px;
+	height: 500px;
+}
+ul.slider li{
+	position: absolute;
+	left:0;
+	top:0;
+	opacity:0;
+	width: inherit;
+	height: inherit;
+	background-color: white;
+	transition: opacity .5s;
+}
+
+ul.slider li img{
+	width: 100%;
+    height: 500px;
+	object-fit: cover;
+}
+
+ul.slider li:first-child{
+	opacity: 1;
+}
+
+ul.slider li:target{
+	opacity: 1;
+}
+
+.menu_slider{
+	text-align: center;
+	margin: 20px;
+}
+
+.menu_slider li{
+	display: inline-block;
+	text-align: center;
+}
+
+.menu_slider li a{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	background-color:grey;
+	padding: 10px;
+	width: 20px;
+	height: 20px;
+	font-size: 20px;
+	border-radius: 100%;
+}
+
+.social_bar {
+	align-content: center;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 15px;
+	padding: 0px;
+	font-size: 30px;
+}
+
+.table{
+	font-size: 18px;
+	background-color:#958989;
+	color:#F2F8F2;
+	margin-top: 10px;
+	align-content: center;
+	text-align: center;
+	width: 40px;
+}
+
+.table th{
+	background-color: #433D3D;
+}
+
+.asignaturas{
+	font-size: 20px;
+	color: #BCBE4A;
+	border-radius: 10px;
+	margin-left: 25%;
+	margin-right: 25%;
+	border: solid 1px #1C8B71;
+	padding: 10px;
+}
+
+.asignaturas button{
+	font-size: 15px;
+	background-color: transparent;
+	color: aquamarine;
+	border:none;
+}
+
+
